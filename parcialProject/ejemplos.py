@@ -80,7 +80,7 @@ def manipular_cadenas():
 
 # 6. Función strip()
 def funcion_strip():
-    cadena_con_espacios = "  Inageneria de Sistemas   "
+    cadena_con_espacios = "  Ingeneria de Sistemas   "
     # Eliminar espacios al inicio y al final
     cadena_sin_espacios = cadena_con_espacios.strip()
     print("\nCadena con espacios eliminados:", cadena_sin_espacios)
@@ -96,7 +96,7 @@ def funcion_replace():
 
 # 8. Función split()
 def funcion_split():
-    cadena = " Inheneria de sistemas, sexto semestre"
+    cadena = " Ingeneria de sistemas, sexto semestre"
     # Dividir la cadena en una lista de subcadenas usando la coma como delimitador
     partes = cadena.split(", ")
     print("\nCadena dividida en partes:", partes)
