@@ -3,15 +3,15 @@
 # 1. Conversión de tipos de datos (Enteros, Decimales y Cadenas)
 def conversion_de_tipos():
     # Enteros
-    entero = 10
+    entero = 20
     print("Entero:", entero)
 
     # Decimales
-    decimal = 10.5
+    decimal = 20.5
     print("Decimal:", decimal)
 
     # Cadenas
-    cadena = "Hola, mundo!"
+    cadena = "Ingeneria de sistemas!"
     print("Cadena:", cadena)
 
     # Conversión de Entero a Cadena
@@ -33,8 +33,7 @@ def conversion_de_tipos():
 
 # 2. Multilíneas de cadenas
 def cadenas_multilinea():
-    multilinea = """Esta es una cadena de texto
-que abarca varias líneas.
+    multilinea = """ Anderson Yanit Imbachi Llanten.
 Puedes escribir lo que quieras aquí,
 y se conservará el formato original."""
     print("\nCadena Multilínea:\n", multilinea)
@@ -42,14 +41,14 @@ y se conservará el formato original."""
 
 # 3. Función len()
 def longitud_cadena():
-    cadena = "Hola, mundo!"
+    cadena = " sexto semestre"
     longitud = len(cadena)
     print("\nLongitud de la cadena '{}':".format(cadena), longitud)
 
 
 # 4. Sub cadenas
 def sub_cadenas():
-    cadena = "Hola, mundo!"
+    cadena = "Ingeneria de sistemas"
 
     # Obtener los primeros n caracteres de una cadena
     n = 5
@@ -83,7 +82,7 @@ def manipular_cadenas():
 
 # 6. Función strip()
 def funcion_strip():
-    cadena_con_espacios = "   Hola, mundo!   "
+    cadena_con_espacios = "  Inageneria de Sistemas   "
     # Eliminar espacios al inicio y al final
     cadena_sin_espacios = cadena_con_espacios.strip()
     print("\nCadena con espacios eliminados:", cadena_sin_espacios)
@@ -91,7 +90,7 @@ def funcion_strip():
 
 # 7. Función replace()
 def funcion_replace():
-    cadena = "Hola, mundo!"
+    cadena = " Ingeneria de Sistemas "
     # Reemplazar 'mundo' por 'Python'
     cadena_reemplazada = cadena.replace("mundo", "Python")
     print("\nCadena después de reemplazar 'mundo' por 'Python':", cadena_reemplazada)
@@ -99,7 +98,7 @@ def funcion_replace():
 
 # 8. Función split()
 def funcion_split():
-    cadena = "Hola, mundo, Python"
+    cadena = " Inheneria de sistemas, sexto semestre"
     # Dividir la cadena en una lista de subcadenas usando la coma como delimitador
     partes = cadena.split(", ")
     print("\nCadena dividida en partes:", partes)
@@ -107,10 +106,10 @@ def funcion_split():
 
 # 9. Formato de cadenas F-String
 def formato_fstring():
-    nombre = "Mundo"
-    lenguaje = "Python"
+    nombre = "Anderson"
+    apellido= "Imbachi"
     # Usar F-Strings para formatear la cadena
-    mensaje = f"Hola, {nombre}! Estás aprendiendo {lenguaje}."
+    mensaje = f"Hola, {nombre}! apellido {apellido}."
     print("\nMensaje formateado con F-String:", mensaje)
 
 
